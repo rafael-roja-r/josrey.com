@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contrato.css">
+    <link rel="shortcut icon" type="image/x-icon" href="redes/4092inco.ico">
+    <title>Contratar</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="redes/logo.jpg" alt="">
+        <a href="index.html">Inicio</a>
+
+    </header>
+    <main>
+        <section>
+            <form action="https://formsubmit.co/jrojasrr@outlook.com" method="POST">
+                <input type="text" name="name" required placeholder="Nombre">
+                <input type="email" name="email" required placeholder="Correo de:">
+                <script>
+                    function contarcaracteres() {
+
+                        var total = 300;
+
+                        setTimeout(function () {
+                            var valor = document.getElementById('contador');
+                            var respuesta = document.getElementById('res');
+                            var cantidad = valor.value.length;
+                            document.getElementById('res').innerHTML = cantidad + ' caractere/ te quedan ' + (total - cantidad);
+                            if (cantidad == total) {
+
+                                respuesta.style.color = "red";
+                            }
+                            else {
+                                respuesta.style.color = "black";
+                            }
+                        }, 0000);
+
+                    }
+
+                </script>
+
+
+                <textarea name="Mensaje" id="contador" onpaste="contarcaracteres();"
+                    onkeyup="contarcaracteres();"></textarea>
+                <div id="res">0 caractere/ te quedan 300</div>
+
+
+
+                <button type="submit">Enviar Correo</button>
+            </form>
+        </section>
+    </main>
+    <script type="text" src="js/mensaje.js"></script>
+</body>
+
+</html>

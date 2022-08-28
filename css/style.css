@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   /*border: 1px solid red;*/
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script:wght@700&family=Edu+NSW+ACT+Foundation&family=Montserrat:wght@100&display=swap');
+
+
+body{
+    background: #f4f4fa;
+    color: #2c2c2c;
+}
+main{
+    width: 400px;
+    margin: 0px auto;
+}
+section{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 100%;
+    margin: 80px auto;  
+    border: 4px solid #000200;
+}
+h1{
+    text-align: center;
+    margin: 10px auto;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    padding: 10px;
+
+}
+p{
+
+    padding: 10px;
+    text-align: center;
+    overflow-wrap:break-word;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    width: 80%;
+    margin: 10px auto;
+}
+.redes{
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+}
+
+a{  margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+}
+
+h2{
+    text-align: center;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+   
+}
+
+footer{
+    display: block;
+    
+}
+.basef{
+    width: 400px;
+    margin: 10px auto;
+}
+
+.alura{
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    main{
+        width: 100%;
+    }
+
+        section{
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+     .redes{
+        width: 60px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    .button-67{
+        height: 100px;
+    }
+    
+
+    .basef{
+        width: auto;
+    }
+  }
+
+
+
+
+.button-67 {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff,10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  margin: 5px auto;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: 80%;
+  word-break: normal;
+  word-spacing: normal;
+
+}
+
+.button-67:hover {
+  background: #f8f8ff;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+  margin: 5px auto;
+}
+
+@media (min-width: 768px) {
+  .button-67 {
+    padding: 15px;
+  }
+}
+        
+
+/* Parent background */

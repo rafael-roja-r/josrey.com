@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  /* border: 1px solid red;*/
+}
+
+body{
+    background: #f4f4fa;
+    color: #2c2c2c;
+}
+
+header{
+  background: #ffffff;
+  height: 60px;
+  display: flex;
+  width: 100%;
+}
+h2,p{
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;  
+}
+
+.logo{
+  border-radius: 100%;
+  border: 4px solid #000200;
+  margin: 5px;
+  width: 44px;
+}
+a{
+  width: 100%;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;  
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;  
+
+}
+
+h1{
+    text-align:center;
+    padding: 10px;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace; 
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+section{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap; /* alinear las images en orden */
+}
+figure{
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #a4c7ca;
+    box-shadow: 0px 8px 13px 0 #c5c7c8, 10px 9px 11px 0 #1d0dca17;
+}
+
+
+.figureimg {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+figcaption {
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+}
+
+figcaption:hover {
+    padding: 10px;
+    margin: 10px 0px;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    box-shadow: 0px 6px 9px 0 #81a1a4;
+}
+
+footer{
+    display: block;
+    
+}
+.basef{
+    width: 400px;
+    margin: 10px auto;
+}
+
+.alura{
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+    main{
+        width: auto;
+    }
+
+        section{
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    figure{
+        width: 100%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    button{
+        height: 50px;
+    }
+    
+
+    .basef{
+        width: auto;
+    }
+  }
+
+
+  @media only screen and (max-width: 800px) {
+   
+    main{
+        width: auto;
+    }
+
+        section{
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    figure{
+        width: 300px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    button{
+        height: 50px;
+    }
+    
+
+    .basef{
+        width: auto;
+    }
+  }
